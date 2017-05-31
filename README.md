@@ -4,24 +4,24 @@ Refresher: Web APIs Goal #409
 # Specifications
  
 ## General
- - [ ] Artifact is a repo on GitHub
- - [ ] Repo includes an Express.js app
- - [ ] App provide a command to start the web server
+ - [x] Artifact is a repo on GitHub
+ - [x] Repo includes an Express.js app
+ - [x] App provide a command to start the web server
  - [ ] README includes “Getting Started” instructions
  - [ ] “Getting Started” instructs how to install
  - [ ] “Getting Started” instructs how to set up and configure the database
  - [ ] “Getting Started” instructs how to start the server
- - [ ] The artifact produced is properly licensed, preferably with the MIT license
+ - [x] The artifact produced is properly licensed, preferably with the MIT license
 
 ## Database
- - [ ] App uses PostgreSQL for data persistence
- - [ ] Database can store data about artists, albums, songs, and playlists
- - [ ] Database uses multiple tables with appropriate foreign keys
- - [ ] Database uses join tables for any many-to-many relationships
- - [ ] Artists have a name and genre
- - [ ] Albums have a title, artist, and year
- - [ ] Songs have a title, album, length (in seconds), and track number
- - [ ] Playlists have a title and are associated with a list of songs
+ - [x] App uses PostgreSQL for data persistence
+ - [x] Database can store data about artists, albums, songs, and playlists
+ - [x] Database uses multiple tables with appropriate foreign keys
+ - [x] Database uses join tables for any many-to-many relationships
+ - [x] Artists have a name and genre
+ - [x] Albums have a title, artist, and year
+ - [x] Songs have a title, album, length (in seconds), and track number
+ - [x] Playlists have a title and are associated with a list of songs
   
 ## API Specs
  - [ ] API employs a RESTful design
