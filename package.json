@@ -1,0 +1,23 @@
+{
+  "name": "refresher-web-apis",
+  "version": "1.0.0",
+  "description": "Brandon's Music App API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonInspires/Refresher-Web-APIs.git"
+  },
+  "author": "Brandon Gilchrist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrandonInspires/Refresher-Web-APIs/issues"
+  },
+  "homepage": "https://github.com/BrandonInspires/Refresher-Web-APIs#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.1"
+  }
+}
