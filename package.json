@@ -1,23 +1,19 @@
 {
-  "name": "refresher-web-apis",
-  "version": "1.0.0",
-  "description": "Brandon's Music App API",
-  "main": "index.js",
+  "name": "node-postgres-promises",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BrandonInspires/Refresher-Web-APIs.git"
-  },
-  "author": "Brandon Gilchrist",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BrandonInspires/Refresher-Web-APIs/issues"
-  },
-  "homepage": "https://github.com/BrandonInspires/Refresher-Web-APIs#readme",
   "dependencies": {
-    "express": "^4.15.3",
-    "pug": "^2.0.0-rc.1"
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.13.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "morgan": "^1.6.1",
+    "pg-promise": "^5.6.4",
+    "pug": "^2.0.0-beta11",
+    "serve-favicon": "^2.3.2"
   }
 }
